@@ -1,0 +1,169 @@
+/********************************************************  Default Values  ******************************/
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0; }
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem; }
+
+h3 {
+    color: #11999E; }
+
+p {
+    font-family: sans-serif;
+    color: #40514E;
+    line-height: 2; } 
+hr {
+    border-style: dotted none none none;
+    border-width: 9px;
+    width: 5%;
+    border-color: lightgrey;
+    margin-bottom: 100px;
+}
+
+a:link {
+  color: #11999e;
+}
+
+/* visited link */
+a:visited {
+  color: #11999e;
+}
+
+/* mouse over link */
+a:hover {
+  color: whitesmoke;
+}
+
+/* selected link */
+a:active {
+  color: #11999e;
+}
+
+/**************************************************  TOP CONTAINER  **************************************/
+
+.top-container {
+    background-color: #D6EFED;
+    position: relative;
+    padding-top: 80px;
+    margin-bottom: 0;
+    overflow: hidden;
+    white-space: nowrap; }
+
+.top-container > .intro-name > h1 {
+    color: #66BFBF;
+    font-size: 5rem;
+    font-family: 'Sacramento', sans-serif;
+    margin-bottom: 0; }
+
+.top-container > h2 {
+    position: relative;
+    left :10px;
+    font-size: 1.7rem;
+    margin-top: 0;
+    font-weight: normal; }
+
+.top-container >.palm-tree1 {
+    position: absolute;
+    width: 17%;
+    bottom: 0px;
+    left: 0px;
+     }
+.top-container >.palm-tree2 {
+    position: absolute;
+    width: 17%;
+    bottom: 0px;
+    right: 0px;
+     }
+
+.top-container >.mountain {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto; }                            
+
+                                      /*Clouds Positioning*/
+
+.top-container > .top-cloud {
+    height: 15%;
+    position: absolute;
+    top: 50px;
+    right: 230px; }
+
+.top-container > .bottom-cloud {
+    height: 15%;
+    position: absolute;
+    top: 300px;
+    left: 200px; }
+
+/****************************************************  MIDDLE CONTAINER  ****************************************/
+
+.middle-container {
+    padding-top: 0px;
+    margin: 0  0 100px 0;
+
+     }
+
+                                            /*Profile Section*/
+
+.middle-container > .profile-container{
+    width: 50%;
+    margin: 100px auto;
+     }
+.middle-container > .profile-container > .profile-pic {
+    width:40% ;
+     }
+
+
+                                            /*Skill Section*/
+
+.middle-container >.skills >.skill-row {
+    width: 60%;
+    margin: 100px auto;
+    text-align: left;
+     }
+.middle-container >.skills >.skill-row >.computer {
+    position: relative;
+    bottom: 20px;
+    margin-top: 0;
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 25px;
+     }
+.middle-container >.skills >.skill-row >.chillies {
+    position: relative;
+    bottom: 25px;
+    width: 25%;
+    float : right;
+    margin-left: 25px;
+     }
+.middle-container >.contact-me >.Contactme-button {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*****************************************************BOTTOM CONTAINER****************************************/
+
+.bottom-container {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color: #66BFBF;
+    margin-bottom: 0;
+     }
+.bottom-container >.footer-link {
+    text-decoration: none;
+    margin: 20px;
+     }
+.bottom-container >.copyright {
+    padding-top: 20px;
+    color: #EAF6F6;
+
+}
+
+
+
